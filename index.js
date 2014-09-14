@@ -23,3 +23,5 @@ logger.setLevel('DEBUG');
 Object.defineProperty(exports, "LOG", {
     value: logger
 });
+
+exports.expressLogger = log4js.connectLogger(logger, { level: 'auto' });

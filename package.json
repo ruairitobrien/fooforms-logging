@@ -1,0 +1,36 @@
+{
+    "name": "fooforms-logging",
+    "version": "0.0.1",
+    "description": "logging helper module for fooforms",
+    "keywords": [
+        "fooforms",
+        "nodejs",
+        "logging"
+    ],
+    "author": {
+        "name": "FooForms",
+        "email": "info@fooforms.com",
+        "url": "http://www.fooforms.com/"
+    },
+    "homepage": "http://www.fooforms.com/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/ruairitobrien/fooforms-logging.git"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "log4js": "0.x.x"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "mocha": "*",
+        "mockgoose": "*",
+        "should": "*"
+    },
+    "bundleDependencies": [],
+    "private": true,
+    "subdomain": "fooforms"
+}

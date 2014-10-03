@@ -11,9 +11,9 @@ log4js.configure({
         },
         {
             "type": "file",
-            "filename": path.join( global.config.root, "logs/fooforms.log" ),
+            "filename": path.normalize("../../logs/fooforms.log"),
             "maxLogSize": 1024,
-            "backups": 3,
+            "backups": 1,
             "category": "fooforms"
         }
     ]

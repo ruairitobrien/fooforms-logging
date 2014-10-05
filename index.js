@@ -12,7 +12,7 @@ log4js.configure({
         },
         {
             "type": "file",
-            "filename": path.join(appRoot, "logs/fooforms.log"),
+            "filename": appRoot + "/logs/fooforms.log",
             "maxLogSize": 1024,
             "backups": 1,
             "category": "fooforms"

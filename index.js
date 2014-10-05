@@ -3,6 +3,7 @@
 
 var log4js = require('log4js');
 var path = require('path');
+var appRoot = require('app-root-path');
 
 log4js.configure({
     "appenders": [
@@ -11,7 +12,7 @@ log4js.configure({
         },
         {
             "type": "file",
-            "filename": path.normalize("../../logs/fooforms.log"),
+            "filename": path.join(appRoot + "logs/fooforms.log"),
             "maxLogSize": 1024,
             "backups": 1,
             "category": "fooforms"
